@@ -19,6 +19,12 @@ const Header = () => {
           <li>
             <NavLink to="/infinite">InfiniteScroll</NavLink>
           </li>
+          <li>
+            <NavLink to="/pagination">Pagination</NavLink>
+          </li>
+          <li>
+            <NavLink to="/reactinfinite">ReactInfiniteScroll</NavLink>
+          </li>
         </ul>
       </div>
     </header>

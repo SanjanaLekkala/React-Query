@@ -9,6 +9,8 @@ import "./App.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import InfiniteScroll from "./Pages/InfiniteScroll";
+import Pagination from "./Pages/Pagination";
+import ReactInfiniteScroll from "./Pages/ReactInfiniteScroll";
 
 //Create a router
 const router = createBrowserRouter([
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
       {
         path: "/infinite",
         element: <InfiniteScroll />,
+      },
+      {
+        path: "/pagination",
+        element: <Pagination />,
+      },
+      {
+        path: "/reactinfinite",
+        element: <ReactInfiniteScroll />,
       },
     ],
   },
